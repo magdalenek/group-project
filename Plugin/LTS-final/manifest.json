@@ -1,0 +1,19 @@
+{
+  "name": "Learn to Share",
+  "version": "2.2.1",
+  "manifest_version": 2,
+  "description": "Be more privacy aware!",
+  "icons": {"128": "img/icon.png"},
+    "browser_action": {
+    "default_popup": "popup.html",
+    "default_title": "Learn To Share"
+  },
+  "web_accessible_resources": [
+		"img/icon.png"
+	],
+  "permissions": [
+    "https://*/*",
+    "http://*/*",
+    "tabs"
+  ]
+}

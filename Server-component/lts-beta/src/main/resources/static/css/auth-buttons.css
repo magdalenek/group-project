@@ -1,0 +1,97 @@
+
+.btn-auth, .btn-auth:visited {
+	position:relative;
+	display:inline-block;
+	height:10px;
+	padding:0 1em;
+	border:1px solid #999;
+	border-radius:2px;
+	margin:0;
+	text-align:center;
+	text-decoration:none;
+	font-size:14px;
+	line-height:22px;
+	white-space:nowrap;
+	cursor:pointer;
+	color:#222;
+	background:#fff;
+	-webkit-box-sizing:content-box;
+	-moz-box-sizing:content-box;
+	box-sizing:content-box;
+	-webkit-user-select:none;
+	-moz-user-select:none;
+	-ms-user-select:none;
+	user-select:none;
+	/* iOS */
+	-webkit-appearance:none; /* tipr */
+	/* IE6/7 hacks */
+	*overflow:visible; /* 2 */
+	*display:inline; /* 3 */
+	*zoom:1; /* 3 */
+}
+.btn-auth:hover, .btn-auth:focus, .btn-auth:active {
+	color:#222;
+	text-decoration:none;
+}
+.btn-auth:before {
+	content:"";
+	float:left;
+	width:10px;
+	height:10px;
+}
+/**
+ * 36px
+ */
+.btn-auth.large {
+	height:10px;
+	line-height:10px;
+	font-size:10px;
+}
+.btn-auth.large:before {
+	width:10px;
+	height:10px;
+}
+/*
+ * Remove excess padding and border in FF3+
+ */
+.btn-auth::-moz-focus-inner {
+	border:0;
+	padding:0;
+}
+/* Facebook (extends .btn-auth)
+ ========================================================================== */
+.btn-facebook, .btn-facebook:visited {
+	border-color:#29447e;
+	border-bottom-color:#1a356e;
+	color:#fff;
+	background-color:#5872a7;
+	background-image:-webkit-gradient(linear, 0 0, 0 100%, from(#637bad), to(#5872a7));
+	background-image:-webkit-linear-gradient(#637bad, #5872a7);
+	background-image:-moz-linear-gradient(#637bad, #5872a7);
+	background-image:-ms-linear-gradient(#637bad, #5872a7);
+	background-image:-o-linear-gradient(#637bad, #5872a7);
+	background-image:linear-gradient(#637bad, #5872a7);
+	-webkit-box-shadow:inset 0 1px 0 #879ac0;
+	box-shadow:inset 0 1px 0 #879ac0;
+}
+.btn-facebook:hover, .btn-facebook:focus {
+	color:#fff;
+	background-color:#3b5998;
+}
+.btn-facebook:active {
+	color:#fff;
+	background:#4f6aa3;
+	-webkit-box-shadow:inset 0 1px 0 #45619d;
+	box-shadow:inset 0 1px 0 #45619d;
+}
+/*
+ * Icon
+ */
+.btn-facebook:before {
+	border-right:1px solid #465f94;
+	margin:0 1em 0 -1em;
+	background-image:url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAAGzs1ytAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAQdJREFUeNpi/P//PwNhABBAjBjK/kNFmJAFAQIIBbVP2ff/Pzbj/0MB2ODi9m1wFT0VngwlHdvBbIAAYsSmk4WRkRHFmK9f/xJwFkzg1sNX/7GqZEF2AQiA+AABxEhcsEADB5cEzIrU6lVg/py2cEacCpEBhmPxBSE8cNA9gg6Q5QECiCQPMjGQAAiGBlgRNCJZ8Jm0avtlht1HrhO2EmRyAzC14XUGtqQIcwZJHiTJGSSZjDcGpUW5UWKQJJMBAoyk6KY5AJUMoCQOA6++fPm/7+RDylyIbCAy+PLlz3+KoxUG0KOX7KimOvhPBCBYrJBiSd9iGgXFp49k5hBCAD0H0SXyaGYwAOVUC/Bk1uiZAAAAAElFTkSuQmCC');
+}
+.btn-facebook.large:before {
+	background-image:url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAAGWB6gOAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAo1JREFUeNpi/P//PwM6YETm/IeoYGRCCPwBCvzFrZKlqm8fiqHV/fv/AwQQI7pFjKjmMTAwoTqCGVmAmQHDYJChAAHEyIAD/EfYxsiEW8FfuEOYsJvzF+pPCMDwGMxxzEBlIPf8BPIAAogRW4gSBTbuu/UfCTAw4nQ40FF/mcGhwsiIx/twOSZsCqA++3/79uv/GHFJtEnYAI5wgsQZSSYBBBD5gUkuePjq1X9QioQAFJqBJMcgR2UDMDxgBsAwIyEDLt16BbZOV1UULgaMK4YfUDZQnJFklyB7C0Rug6Q54lyEmmOZsRYXREctUsYmPSFhy6kww5ATGdVdBBBAVEuQTAwDAV69+oKeDBjIiH6sYUBaGQFKeFQJIxUZAaSiGl6iM5Js0A+oMeDi/C+OBEkow3IAaSkpIXg6YmZmZrgMLGBB4qpIGZaRYAD/xZsWSQhsZqQcQm5gM0IB0CtAA2G1IgWBjag5cec5qmUR4g36y0B5ecTBzoXkI1DD4ND/gfbaN4L+I9FFuFMmQIDRv8om1IaghyXts2EJgxtFvCLFjJGkQoT8kv3Pf1FRSNRgFh0wkb+0r4umLD4JrlxERZmRUstfJIcgO4+Z9GKWVOBmro1kKTOKA74CmYcOPWX4zfATrt7PUZW2aQVUT0Aq3z9odfEfjFYiLkyD5gMzanph/kuwMUS1XAbyNyzZ/kVJL8wECmmqNEKxhcVfNCuYwS0DfCEHkwfXkdTPZYjEC6t8mf8yoOUq5NBhhjv3+pMPtC8AIYkaJxioRP13sDXSmSlyIB16DcwkqSahh0YY8LPjlisB9urYiXEQNcPiJwMXrvKGgX1gouwbUlGAVKP/HbA0BA2hv2ghxIwcivgBAJNu2yEJWiifAAAAAElFTkSuQmCC');
+}
