@@ -1,1 +1,0 @@
-$("#content").load("hellostatic.html #sensitivity");
