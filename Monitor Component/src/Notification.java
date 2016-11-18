@@ -10,9 +10,6 @@ import com.restfb.types.NamedFacebookType;
 /**
  * This is a subclass of FacebookType
  * It has been created to parse the data in a Graph API Notification object 
- * @author Shahrokh Shahi 
- * @email ss6515@ic.ac.uk
- * @version 1.3.0
  */
 @SuppressWarnings("serial")
 public class Notification extends FacebookType { 
