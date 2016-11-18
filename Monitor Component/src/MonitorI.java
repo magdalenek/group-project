@@ -14,10 +14,6 @@ import com.restfb.types.User;
  * Monitor Class for Fetching information from User's Facebook profile
  * This class is responsible for creating a list of notifications, posts, and,
  * friends
- * 
- * @author Shahrokh Shahi, Oh Boon Eng
- * @email ss6515@ic.ac.uk, beo12@ic.ac.uk
- * @version 2.0.1
  */
 public class MonitorI {
 	
