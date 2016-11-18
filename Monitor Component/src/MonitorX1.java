@@ -15,11 +15,6 @@ import com.restfb.types.FacebookType;
  * A general class for testing the monitoring behaviors
  * Using Facebook Graph API and specifically the RestFB library
  * (this class is based on the first monitor mock-up: Fetching information as much as possible) 
- * 
- * @author Shahrokh Shahi
- * @email ss6515@ic.ac.uk
- * @version 2.1.1
- *
  */
 public class MonitorX1 {
 
