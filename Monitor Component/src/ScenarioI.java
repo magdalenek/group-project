@@ -25,10 +25,6 @@ import com.restfb.types.User;
 
 /**
  * A Back-end Testing Base Class
- *  
- * @author Oh Boon Eng, Shahrokh Shahi
- * @email beo12@ic.ac.uk, ss6515@ic.ac.uk
- * @version 4.1.1
  */
 public class ScenarioI {
 	
