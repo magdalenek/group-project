@@ -1,9 +1,6 @@
 
 /**
  * This class outputs the information required for experiments to the log file 
- * @author Yasmin Rafigh
- * @author Oh Boon Eng (modification)
- *
  */
 public class Log {
 	
