@@ -3,9 +3,6 @@
  * id: post_ID
  * sen: level of sensitivity
  * hourse: time of creation
- * 
- * @author Oh Boon Eng
- *
  */
 public class SL {
 		public String id;
